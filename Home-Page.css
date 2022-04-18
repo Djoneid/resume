@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: IRYekan;
+    background-image: url(BackG1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    direction: rtl;
+    font-weight: 800;
+}
+.header {
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px #fff;
+}
+.header p {
+    color: #000;
+}
+.topnav {
+    overflow: hidden;
+    background-image: url(BackG1.jpg);
+    text-shadow: 2px 2px 7px #000;
+
+    
+}
+ul {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: brown;
+    margin: auto;
+    padding: 5px;
+    
+}
+li {
+    list-style-type: none;
+    float: right;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin: 0px 5px;
+    
+}
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.rightcol {
+    float: right;
+    width: 30%;
+
+}
+.fakeimg img {
+    width: 90%;
+}
+.card {
+    background-color: #a52a2a;
+    padding: 20px;
+    margin-top: 10px;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-image: url(BackG1.jpg);
+    text-shadow: 2px 2px 7px #000;
+
+}
+.mat {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(156, 55, 55);
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.mat:hover {
+    background-color: #fff;
+    color: #000;
+}
+.footer {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin-left: 0px 5px;
+    margin-top: 50px;
+
+}
+.row::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.footer a {
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 14px 16px;
+    margin-left: 20px;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+.footer a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    text-shadow: 2px 2px 5px #a52a2a;
+}
+.leftcol {
+    float: left;
+    width: 10%;
+    padding-right: 10px;
+    font-size: 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #a52a2a;
+    margin-top: 10px;
+    background-image: url(BackG1.jpg);
+
+}
+.leftcol h2 {
+    border: 3px solid #000;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.leftcol .card {
+    margin-left: 10px;
+    padding: 0px;
+    text-align: center;
+    transition: 0.4s;
+    background: transparent;
+    border: none;
+
+} 
+.leftcol a {
+    text-decoration: none;
+    color: #fff
+}
+.leftcol a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+@media screen and (max-width:980px) {
+    .leftcol, .rightcol {
+        width: 100%;
+        padding: 0;
+    }
+}
+.midcol {
+    width: 55%;
+    height: 700px;
+    transform: translate(-25px, 10px);
+    display: inline-block;
+}
